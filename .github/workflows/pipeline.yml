@@ -33,3 +33,7 @@ jobs:
       # Runs Test 
       - name: Test
         run: ./pipeline/test.sh
+
+      # Runs Deploy  
+      - name: Deploy 
+        run: ./pipeline/deploy.sh
